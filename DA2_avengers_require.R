@@ -1,0 +1,27 @@
+#DA2_avengers_require
+
+#=== Required packages for success ===#
+require(mice)
+require(Rcpp)
+require(VIM) 
+require(matrixStats)
+require(modeest)
+library(hydroGOF)
+require(lattice)
+require(mlbench)
+library(rpart)
+library(randomForest)
+require(car)
+require(tree)
+require(mlr)
+require(merror)
+require(gdata)
+require(plyr)
+require(pan)
+require(outliers)
+require(devtools)
+require(RCurl)
+require(foreach)
+require(doParallel)
+require(devEMF)
+#======#
