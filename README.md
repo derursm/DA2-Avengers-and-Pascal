@@ -140,9 +140,7 @@ The classification analysis splits up into the three different sections "MCAR", 
 For each of these sections, the methods apply a linear model, a regression tree and a random forest.
 For each of these methods, an imputation for all values and an imputation for the ten missing values is conducted.
 
-The results are displayed in plots showing ... 
-
-Features we have taken for regression
+The results are displayed in plots showing decision trees and the importance of features in the random forest by the given erorrs. 
 
 
 #The follow Up 
