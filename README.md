@@ -1,48 +1,47 @@
 # DA2-Avengers-and-Pascal
 This is the public repository of the case study in Data Analytics 2 lecture at WWU Muenster. It includes methods for missing values and imputation like MCAR, MAR, MNAR as well as MICE, Regression and Classification techniques.  
-
                                               ##############################
                                               ### Please read this first ###
                                               ##############################
 
 
-                                                    .7    										   
-                                         \       , //										
-                                         |\.--._/|//									
-                                        /\ ) ) ).'/									   
-                                       /(  \  // /									  
-                                      /(   J`((_/ \									 
-                                     / ) | _\     /									
-                                    /|)  \  eJ    L		        						   
-                                   |  \ L \   L   L								  
-                                  /  \  J  `. J   L		      						 
-                                  |  )   L   \/   \					  			 
-                                 /  \    J   (\   /								
-               _....___         |  \      \   \```			      
+                                                    .7                           
+                                         \       , //                   
+                                         |\.--._/|//                  
+                                        /\ ) ) ).'/                    
+                                       /(  \  // /                    
+                                      /(   J`((_/ \                  
+                                     / ) | _\     /                 
+                                    /|)  \  eJ    L                          
+                                   |  \ L \   L   L                 
+                                  /  \  J  `. J   L                      
+                                  |  )   L   \/   \                  
+                                 /  \    J   (\   /               
+               _....___         |  \      \   \```            
         ,.._.-'        '''--...-||\     -. \   \                 _______             ____               ______
       .'.=.'                    `         `.\ [ Y               ||       \          /    \            /        \    
      /   /                                  \]  J               ||        \        /      \          |   ___    |    
     Y / Y                                    Y   L              ||   __    \      /    _   \         |__|  /   /    
-	| | |          \                         |   L                ||  |  |    |    /    | |   \             /   /     
-	| | |           Y                        A  J                 ||  |__|    |   /     |_|    \           /   /
-	|   I           |                       /I\ /                 ||         /   /      ___     \         /   /     
-	|    \          I             \        ( |]/|                 ||        /   /     /    \     \     _./   /______       
-	J     \         /._           /        -tI/ |                 ||_______/   /_____/      \_____\   |_____________|
-	L     )       /   /'-------'J           `'-:.	                        
-	J   .'      ,'  ,' ,     \   `'-.__          \	                
-     \ T      ,'  ,'   )\    /|        ';'---7   /	                    
-      \|    ,'L  Y...-' / _.' /         \   /   /	  
-       J   Y  |  J    .'-'   /         ,--.(   /	   
-        L  |  J   L -'     .'         /  |    /\		
-        |  J.  L  J     .-;.-/       |    \ .' /		
-        J   L`-J   L____,.-'`        |  _.-'   |		
-         L  J   L  J                  ``  J    |		 
-         J   L  |   L                     J    |		 
-          L  J  L    \                    L    \		  
-          |   L  ) _.'\                    ) _.'\		  
-          L    \('`    \                  ('`    \		  
-           ) _.'\`-....'                   `-....'		   
-          ('`    \		  
+  | | |          \                         |   L                ||  |  |    |    /    | |   \             /   /     
+  | | |           Y                        A  J                 ||  |__|    |   /     |_|    \           /   /
+  |   I           |                       /I\ /                 ||         /   /      ___     \         /   /     
+  |    \          I             \        ( |]/|                 ||        /   /     /    \     \     _./   /______       
+  J     \         /._           /        -tI/ |                 ||_______/   /_____/      \_____\   |_____________|
+  L     )       /   /'-------'J           `'-:.                         
+  J   .'      ,'  ,' ,     \   `'-.__          \                  
+     \ T      ,'  ,'   )\    /|        ';'---7   /                      
+      \|    ,'L  Y...-' / _.' /         \   /   /   
+       J   Y  |  J    .'-'   /         ,--.(   /     
+        L  |  J   L -'     .'         /  |    /\    
+        |  J.  L  J     .-;.-/       |    \ .' /    
+        J   L`-J   L____,.-'`        |  _.-'   |    
+         L  J   L  J                  ``  J    |     
+         J   L  |   L                     J    |     
+          L  J  L    \                    L    \      
+          |   L  ) _.'\                    ) _.'\     
+          L    \('`    \                  ('`    \      
+           ) _.'\`-....'                   `-....'       
+          ('`    \      
            `-.___/  
 
 
@@ -76,21 +75,24 @@ Inline-Comment: #
 DA2_avengers_install.R 
 DA2_avengers_require.R 
 Seed.R
+
 --> load output_all.Rdata
+
 FirstDataAnalysis.R
 MCAR_working_set.R
 MNAR_working_set.R
 MAR_working_set.R
-===
+
 mice_analysis_mar.R
 mice_analysis_mcar.R
 mice_analysis_mnar.R
-===
+
 regression_analysis.R
 classification_analysis.R
-first_regression_analysis.R
-first_classification_analysis.R
+regression_analysis.R
+classification_analysis.R
 
+MCAR_repeat.R
 
 
 3. Management review 
@@ -140,7 +142,9 @@ The classification analysis splits up into the three different sections "MCAR", 
 For each of these sections, the methods apply a linear model, a regression tree and a random forest.
 For each of these methods, an imputation for all values and an imputation for the ten missing values is conducted.
 
-The results are displayed in plots showing decision trees and the importance of features in the random forest by the given erorrs. 
+The results are displayed in plots showing ... 
+
+Features we have taken for regression
 
 
 #The follow Up 
@@ -150,4 +154,4 @@ Taking the feature City instead wasn't feasible since it did contain too many fa
 
 Classification based on regression takes the output of the regression via random forest and performs a classification for the features City, Postcode and Pay Options.
 
-
+After all a multiple mcar regression (file:mcar_repeat.R) is  conducted where the mse of the three different appraoches linear model, regression tree and randomForrest for 1000 runs are analysed.
