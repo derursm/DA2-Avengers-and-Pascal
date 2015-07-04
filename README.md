@@ -5,52 +5,12 @@ This is the public repository of the case study in Data Analytics 2 lecture at W
 ... you can download the whole repository from the following release as a .zip file. 
 https://github.com/derursm/DA2-Avengers-and-Pascal/releases
                                               
-                                              
+#If you are familiar with it -> let's rock 
+
                                               
                                               ##############################
                                               ### Please read this first ###
                                               ##############################
-
-
-                                                    .7                           
-                                         \       , //                   
-                                         |\.--._/|//                  
-                                        /\ ) ) ).'/                    
-                                       /(  \  // /                    
-                                      /(   J`((_/ \                  
-                                     / ) | _\     /                 
-                                    /|)  \  eJ    L                          
-                                   |  \ L \   L   L                 
-                                  /  \  J  `. J   L                      
-                                  |  )   L   \/   \                  
-                                 /  \    J   (\   /               
-               _....___         |  \      \   \```            
-        ,.._.-'        '''--...-||\     -. \   \                 _______             ____               ______
-      .'.=.'                    `         `.\ [ Y               ||       \          /    \            /        \    
-     /   /                                  \]  J               ||        \        /      \          |   ___    |    
-    Y / Y                                    Y   L              ||   __    \      /    _   \         |__|  /   /    
-  | | |          \                         |   L                ||  |  |    |    /    | |   \             /   /     
-  | | |           Y                        A  J                 ||  |__|    |   /     |_|    \           /   /
-  |   I           |                       /I\ /                 ||         /   /      ___     \         /   /     
-  |    \          I             \        ( |]/|                 ||        /   /     /    \     \     _./   /______       
-  J     \         /._           /        -tI/ |                 ||_______/   /_____/      \_____\   |_____________|
-  L     )       /   /'-------'J           `'-:.                         
-  J   .'      ,'  ,' ,     \   `'-.__          \                  
-     \ T      ,'  ,'   )\    /|        ';'---7   /                      
-      \|    ,'L  Y...-' / _.' /         \   /   /   
-       J   Y  |  J    .'-'   /         ,--.(   /     
-        L  |  J   L -'     .'         /  |    /\    
-        |  J.  L  J     .-;.-/       |    \ .' /    
-        J   L`-J   L____,.-'`        |  _.-'   |    
-         L  J   L  J                  ``  J    |     
-         J   L  |   L                     J    |     
-          L  J  L    \                    L    \      
-          |   L  ) _.'\                    ) _.'\     
-          L    \('`    \                  ('`    \      
-           ) _.'\`-....'                   `-....'       
-          ('`    \      
-           `-.___/  
-
 
 
 Project 5 – Missing Values & Classification & Regression
